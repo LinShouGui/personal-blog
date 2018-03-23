@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="./blog.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Blog</title>
+
+  <link rel="Shortcut Icon" href="./static/favicon.png" type="image/x-icon">
+  <!-- <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json"> -->
+
+  <!-- <link rel="stylesheet" href="https://cdn.bootcss.com/element-ui/2.0.7/theme-chalk/index.css"> -->
+  <!-- <script type="text/javascript" src="./sw-register.js"> </script> -->
+  <!-- <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script> -->
+</head>
+
+<body lang="zh-CN">
+  <div id="app"></div>
+
+  <!-- <script src="https://cdn.bootcss.com/vue/2.5.9/vue.min.js"></script>
+  <script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>
+  <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
+  <script src="https://cdn.bootcss.com/element-ui/2.0.7/index.js"></script> -->
+
+  <script src="https://cdn.bootcss.com/three.js/r83/three.min.js"></script>
+
+  <!-- <script>百度监测
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?eb1d8ffb8cd9ab02bd17e15744726a02";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script> -->
+
+<script>
+    isShowen=false;
+    if(window){
+        window.addEventListener('resize',()=>{
+            let clientWidth = document.documentElement.clientWidth;
+              if(!isShowen&&(clientWidth<1029)){
+                isShowen=true;
+                window.alert('你当前的窗口尺寸过小,不再提供样式')
+              }
+        })
+      }
+</script>
+  <!-- <script src="<%= htmlWebpackPlugin.files.publicPath %>register.simple.js"></script> -->
+  <!-- built files will be auto injected -->
+  
+</body>
+
+</html>

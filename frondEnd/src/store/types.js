@@ -1,0 +1,16 @@
+export const USER_SIGNIN = 'USER_SIGNIN';
+export const USER_SIGNOUT = 'USER_SIGNOUT';
+export const USER_SIGNUP = 'USER_SIGNUP';
+export const SHOW_USER = 'SHOW_USER';
+export const HEAD_LINE = 'HEAD_LINE';
+export const TO_OPEN = 'TO_OPEN';
+export const TO_SONG = 'TO_SONG';
+export const TO_SIMPLE = 'TO_SIMPLE';
+export const DANG_QIAN = 'DANG_QIAN';
+export const TO_SIGNOUT = 'TO_SIGNOUT';
+export const TO_WritePW = 'TO_WritePW';
+export const CURRENT_ARTICLE = 'CURRENT_ARTICLE';
+export const SEARCH_USER = 'SEARCH_USER';
+export const CLASSIFY_ARTICLES = 'CLASSIFY_ARTICLES';
+export const MessageHandle = 'MessageHandle';
+export const FIND_NAME = "FIND_NAME";
